@@ -85,6 +85,7 @@ PRODUCT_PACKAGES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Dalvik heap
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -335,9 +336,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions \
-    libjni_LineageActions
+#PRODUCT_PACKAGES += \
+#    LineageActions \
+#    libjni_LineageActions
 
 # Keymaster HIDL interfaces
 PRODUCT_PACKAGES += \
