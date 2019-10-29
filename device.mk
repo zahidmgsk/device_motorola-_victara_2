@@ -281,6 +281,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec.policy:$(TARGET_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(LOCAL_PATH)/seccomp/mediaextractor.policy:$(TARGET_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
 
+# System Properties
+$(call inherit-product, device/motorola/victara/system_prop.mk)	
+	
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
