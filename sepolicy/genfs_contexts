@@ -1,1 +1,0 @@
-genfscon proc /cpu/alignment u:object_r:proc_cpu_alignment:s0
