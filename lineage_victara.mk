@@ -19,3 +19,11 @@ PRODUCT_MANUFACTURER := motorola
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+
+BUILD_FINGERPRINT := "motorola/victara_tmo/victara:5.1/LPE23.32-21.3/5:user/release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=victara \
+    TARGET_DEVICE="victara"
+    PRIVATE_BUILD_DESC="victara_tmo-user 5.1 LPE23.32-21.3 5 release-keys"
