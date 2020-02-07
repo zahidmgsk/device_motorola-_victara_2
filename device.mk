@@ -193,6 +193,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
+    android.hardware.gnss@1.0-service \
     gps.msm8974
 
 # Health
