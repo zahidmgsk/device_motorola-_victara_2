@@ -3,6 +3,7 @@ type battery_data_file, file_type, data_file_type;
 type camera_dump_data_file, file_type, data_file_type;
 type cutback_data_file, file_type, data_file_type;
 type fsg_file, file_type, data_file_type;
+type persist_modem_file, file_type;
 type hwrev_data_file, file_type, data_file_type;
 type pds_file, file_type;
 type sysfs_adspd, sysfs_type, fs_type;
