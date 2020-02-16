@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2014 The CyanogenMod Project
 #
@@ -14,8 +15,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_victara.mk
+    $(LOCAL_DIR)/aicp_victara.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_victara-eng \
-    lineage_victara-userdebug
+    aicp_victara-eng \
+    aicp_victara-userdebug
