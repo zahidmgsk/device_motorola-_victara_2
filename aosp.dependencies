@@ -3,12 +3,18 @@
     "remote":      "github",
     "repository":  "jro1979oliver/project_kernel_motorola_msm8974",
     "target_path": "kernel/motorola/msm8974",
-    "branch":      "10.0"
+    "branch":      "lineage-17.1"
   },
   {
     "remote":      "github",
     "repository":  "jro1979oliver/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch":      "10.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_hardware_broadcom_nfc",
+    "target_path": "hardware/broadcom/nfc",
+    "branch":      "lineage-17.1"
   }  
 ]
