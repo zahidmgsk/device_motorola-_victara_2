@@ -15,8 +15,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_victara.mk
+    $(LOCAL_DIR)/rr_victara.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_victara-eng \
-    aicp_victara-userdebug
+    rr_victara-eng \
+    rr_victara-userdebug
