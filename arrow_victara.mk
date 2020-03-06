@@ -2,14 +2,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common aicp stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from victara device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := victara
-PRODUCT_NAME := rr_victara
+PRODUCT_NAME := arrow_victara
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := victara
 PRODUCT_RELEASE_NAME := MOTO X (2014)

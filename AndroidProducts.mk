@@ -15,8 +15,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_victara.mk
+    $(LOCAL_DIR)/arrow_victara.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_victara-eng \
-    rr_victara-userdebug
+    arrow_victara-eng \
+    arrow_victara-userdebug
