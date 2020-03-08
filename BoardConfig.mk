@@ -27,8 +27,8 @@ TARGET_OTA_ASSERT_DEVICE := victara
 # Filesystem
 TARGET_ALLOW_LEGACY_AIDS := true
 TARGET_FS_CONFIG_GEN := \
-    $(LOCAL_PATH)/fs_config/mot_aids.fs \
-    $(LOCAL_PATH)/fs_config/config.fs
+    device/motorola/victara/fs_config/mot_aids.fs \
+    device/motorola/victara/fs_config/config.fs
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8974
@@ -104,7 +104,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/vendor/bin/mm-qcamera-daemon=22
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/motorola/victara/bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
@@ -163,15 +163,13 @@ BOARD_NO_SECURE_DISCARD := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_RECOVERY_SWIPE := true
 TARGET_RECOVERY_DENSITY := hdpi
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/motorola/victara/rootdir/etc/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # SELinux
 include device/qcom/sepolicy-legacy/sepolicy.mk
-
 BOARD_SEPOLICY_DIRS += device/motorola/victara/sepolicy
-
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/motorola/victara/sepolicy/private
 
 # Vendor Init
