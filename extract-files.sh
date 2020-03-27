@@ -56,3 +56,7 @@ setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 extract "$MY_DIR"/proprietary-files.txt "$SRC"
 
 "$MY_DIR"/setup-makefiles.sh
+
+# Hax for disable colorspace
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib/egl/eglSubDriverAndroid.so
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib/egl/eglsubAndroid.so
